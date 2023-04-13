@@ -1,7 +1,11 @@
-import HomePage from '@/components/TopSection'
+import TopSection from '@/components/TopSection'
+import AboutSection from '@/components/AboutSection'
 
 export default function Home() {
   return (
-    <HomePage content="This is my personal page"></HomePage>
+    <>
+        <TopSection h1Children="Sth" h2Children="sth...."></TopSection>
+        <AboutSection></AboutSection>
+    </>
   )
 }
