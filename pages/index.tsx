@@ -1,5 +1,4 @@
 import HomePage from '@/components/TopSection'
-@/components/TopSection
 
 export default function Home() {
   return (

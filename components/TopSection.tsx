@@ -3,7 +3,7 @@ interface HomePageProps {
     content:String
 }
 
-const HomePage = ({content}:HomePageProps) =>{
+const TopSection = ({content}:HomePageProps) =>{
     return (
         <h1 className="text-5xl">{content}</h1>
     )
@@ -16,4 +16,4 @@ const HomePage = ({content}:HomePageProps) =>{
 //     )
 // }
 
-export default HomePage
+export default TopSection
