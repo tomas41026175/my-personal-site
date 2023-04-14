@@ -4,7 +4,7 @@ import NavBar from './NavBar'
 // import TopSectionStyle from '../styles/topSectionStyle.module.css'
 
 interface HomePageProps {
-    // content: string,
+    // content: string, 
     // pageClass: string
     h1Children: string,
     h2Children: string,
